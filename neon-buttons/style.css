@@ -1,0 +1,17 @@
+/* Core neon effect */
+.neon-blue {
+    background: transparent;
+    color: #08f;
+    border: 2px solid #08f;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-shadow: 0 0 8px #08f;
+    box-shadow: 0 0 20px #08f, inset 0 0 20px #08f;
+    transition: all 0.3s ease;
+}
+
+.neon-blue:hover {
+    background: #08f;
+    color: white;
+    box-shadow: 0 0 40px #08f;
+}
